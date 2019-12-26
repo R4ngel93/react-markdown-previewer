@@ -1,0 +1,55 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.js');
+
+/* Editor Style */
+#editor{
+  width: 98.5%;
+  min-height: 30vh;
+  resize: vertical;
+  margin-top: -3em;
+}
+#editor-wrap{
+  width: 50.5vw;
+  border: solid 1px black;
+}
+#editor-wrap > h6 {
+  margin-top: 0;
+  font-size: 1rem;
+  font-family: Russo One;
+  border-bottom: solid 1px black;
+}
+
+/* Previewer Style */
+#preview{
+  margin-top: -2em;
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+}
+#preview-wrap{
+  margin: auto;
+  margin-top: 2rem;
+  width: 80vw;
+  border: solid 1px black;
+  min-height: 20vh;
+}
+#preview-wrap  > h6{
+  margin-top: 0;
+  font-size: 1rem;
+  font-family: Russo One;
+  border-bottom: solid 1px black;
+}
+
+/* Classes */
+.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Media query stuff (do NOT touch it) */
+@media only screen and (max-width: 768px) {
+  #editor-wrap {
+    width: 80vw;
+  }
+}
